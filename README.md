@@ -1,5 +1,5 @@
-# classical-model-comparision
-A Comparative Study of Classical Models, Feature Spaces, and Reduced-Dimension Techniques for Suicide Detection on Social Media with Geolocation
+Led a comparative study evaluating 27+ ML model–feature combinations for suicide-ideation detection using a dataset of 13,000+ social-media posts. Implemented TF-IDF, BoW, CHI2-1000, and SVD-300 embeddings, and ran PCA/t-SNE experiments to measure the impact of dimensionality reduction. Developed geolocation and NER pipelines to map crisis locations across platforms. Built similarity matrices and DGIM/Sliding-Window stream algorithms for Instagram user-risk analysis. Achieved the best performance with TF-IDF + Logistic Regression, outperforming boosting models by 5–12%.
+
 # A Comparative Study of Classical Models, Feature Spaces, and Reduced-Dimension Techniques for Suicide Detection on Social Media
 
 This project presents a comprehensive evaluation of **27+ model–feature combinations** for suicide ideation detection using classical machine-learning techniques. We compare TF-IDF, Bag-of-Words, Chi-Square-selected vocabularies, and SVD-based latent semantic embeddings, along with PCA/t-SNE for dimensionality reduction. Additionally, we explore **geolocation extraction**, **social-media analysis**, **DGIM/sliding-window algorithms**, and **user-user similarity metrics** for Instagram, Reddit, and X datasets.
